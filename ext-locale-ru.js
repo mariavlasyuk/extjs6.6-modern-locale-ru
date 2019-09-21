@@ -51,7 +51,8 @@ Ext.onReady(function() {
             decimalSeparator: ',',
             currencySign: '\u0440\u0443\u0431',
             // Russian Ruble
-            dateFormat: 'd.m.Y'
+            dateFormat: 'd.m.Y',
+            defaultDateFormat: 'd.m.Y'
         });
     }
 });
