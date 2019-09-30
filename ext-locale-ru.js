@@ -10,6 +10,7 @@ Ext.onReady(function() {
 
         Ext.Date.defaultFormat = 'd.m.Y';
         Ext.Date.defaultTimeFormat = 'H:i';
+        Ext.Date.firstDayOfWeek = 1;
 
         Ext.Date.getShortMonthName = function(month) {
             if ([0, 3, 4, 7, 9, 11].indexOf(month)) {
